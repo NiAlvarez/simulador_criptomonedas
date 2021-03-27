@@ -10,7 +10,7 @@ const kryptoBot = function(){
 		`Hola ${nombre}! Te cuento que este programa te permite cargar la criptomoneda que tengas en tu wallet y te dice a cuantos dólares equivalen`
 	);
 	
-	document.write(`Esta es la billetera de: <b>${nombre}</b><br><br>`);
+	// document.write(`Esta es la billetera de: <b>${nombre}</b><br><br>`); Comentado para que no me saque del index.html
 	
 	let billetera = [];
 	
@@ -80,6 +80,6 @@ const kryptoBot = function(){
 		respuesta = prompt("¿Querés probar con otro número? (S/N): ");
 	}
 	
-	document.write(billetera);
+	// document.write(billetera);  Comentado para que no me saque del index.html
 	alert("Gracias por usarme! Volvé pronto 😉");
 }
